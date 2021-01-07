@@ -1,0 +1,157 @@
+body {
+  padding: 0px;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.brand {
+  font-weight: bold;
+  font-size: 24px;
+}
+.container {
+  max-width: 100%;
+  padding: 0px 120px;
+}
+.bg-img {
+  width: 100%;
+  /* padding: 0px 80px; */
+  background-image: url("https://www.siarza.com/wp-content/uploads/2017/12/webplunder-background-image-technology-online-website-solutions.jpg");
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  height: 50px;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.nav-item {
+  padding: 15px 25px;
+  margin: 5px;
+}
+.nav-item:last-of-type {
+  padding-right: 0px;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown:hover > .dropdown-content {
+  display: block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  background-color: peachpuff;
+  padding: 5px 10px;
+}
+.login-btn {
+  width: fit-content;
+  border-radius: 20px;
+  padding: 10px 15px;
+  width: fit-content;
+  background: linear-gradient(
+    to right,
+    #3e2bce 0%,
+    #2dd3aa 100%,
+    #2dd3aa 100%,
+    #2dd3aa 100%
+  );
+  color: cornsilk;
+  border: none;
+}
+.section-1 {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.child1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-right: 20px;
+}
+.Get-Started-Btn {
+  width: fit-content;
+  border-radius: 20px;
+  padding: 15px 30px;
+  /* margin: 10px; */
+  width: fit-content;
+  background: linear-gradient(
+    to right,
+    #3e2bce 0%,
+    #2dd3aa 100%,
+    #2dd3aa 100%,
+    #2dd3aa 100%
+  );
+  color: cornsilk;
+  border: none;
+}
+.child2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.section-2 {
+  text-align: center;
+  padding-top: 30px;
+}
+.section-2-head {
+  font-weight: normal;
+  color: #d3c8c8;
+  font-size: 1.1rem;
+}
+.client-logo {
+  padding: 10px 20px;
+}
+.section-3 {
+  background-color: #f2f3f7;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* grid-row-gap: 10px; */
+}
+.row-heading {
+  font-weight: normal;
+  font-size: 20px;
+  color: #3e396b;
+}
+.row-para {
+  font-size: 15px;
+  color: #343a40;
+}
+/* [class*="col-"] {
+  padding-left: 15px;
+  padding-right: 15px;
+} */
+.col {
+  flex: 1;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+}
+.col-3 {
+  width: 25%;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+}
+.col-4 {
+  width: 33.33%;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+}
+.col-6 {
+  width: 50%;
+  /* padding-left: 15px; */
+  /* padding-right: 15px; */
+}
